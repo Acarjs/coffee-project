@@ -235,7 +235,8 @@ html {
   /*---MENU--- */
 
   .menu {
-    /* max-width: 650px; */
+    max-width: 650px;
+    margin: auto;
   }
 
   .menu1 {
