@@ -292,3 +292,38 @@ html {
     display: none;
   }
 }
+
+/* ---STORY--- */
+.story {
+  padding: 1rem 1.5rem 0;
+  max-width: 650px;
+  margin: auto;
+}
+
+.story p {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.75;
+}
+
+.img {
+  position: relative;
+  top: 30px;
+  margin: auto;
+  max-width: 100%;
+}
+
+.story__img {
+  height: auto;
+  max-width: 100%;
+}
+
+.story__heading {
+  font-size: 2.5rem;
+  font-weight: 100;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
