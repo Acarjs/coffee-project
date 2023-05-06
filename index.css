@@ -288,6 +288,11 @@ html {
   text-transform: capitalize;
 }
 
+.menu__img {
+  position: relative;
+  top: 50px;
+}
+
 @media (max-width: 600px) {
   .menu2 {
     display: none;
