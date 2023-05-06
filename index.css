@@ -106,10 +106,9 @@ html {
   color: rgb(0, 0, 0);
 }
 
-/* ---HOME--- */
+/* ---HOME--- ---COFFEE--- */
 .home {
   padding: 1rem 1.5rem 0;
-  position: relative;
   letter-spacing: 0.07em;
   text-transform: uppercase;
   line-height: 1.5;
@@ -256,12 +255,27 @@ html {
     flex-direction: row !important;
     text-align: left;
   }
+
+  /* ---COFFEE--- */
+  .coffee {
+    margin: auto;
+  }
+
+  .coffee__items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row !important;
+    justify-content: space-between;
+  }
+
+  .coffee__item {
+    width: 48%;
+  }
 }
 
 /*---MENU--- */
 .menu {
   padding: 1rem;
-  /* margin: auto; */
   text-align: center;
 }
 .menu__container {
@@ -271,8 +285,16 @@ html {
   margin: auto;
 }
 
-.menu__heading {
+.menu__heading,
+.story__heading,
+.coffee__heading {
+  font-size: 1.5rem;
   font-weight: 100;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-transform: uppercase;
 }
 
 .menu__title {
@@ -291,6 +313,8 @@ html {
 .menu__img {
   position: relative;
   top: 50px;
+  height: auto;
+  width: 100%;
 }
 
 @media (max-width: 600px) {
@@ -306,9 +330,10 @@ html {
   margin: auto;
 }
 
-.story p {
+.story p,
+.coffee__header p {
   margin-bottom: 1rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 300;
   line-height: 1.75;
 }
@@ -325,11 +350,42 @@ html {
   max-width: 100%;
 }
 
-.story__heading {
-  font-size: 2.5rem;
-  font-weight: 100;
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-  font-weight: 300;
+/* ---COFFEE--- */
+.coffee {
+  padding: 1rem 1.5rem 0;
+  letter-spacing: 0.07em;
   line-height: 1.5;
+  max-width: 650px;
+}
+
+.coffee__items {
+  display: flex;
+  flex-direction: column;
+}
+
+.coffee__item {
+  background-color: #e9ecef;
+  margin-bottom: 1rem;
+}
+
+.coffee__item span {
+  display: block;
+  font-size: 0.8rem;
+  padding: 1rem;
+}
+
+.coffee__item p {
+  font-size: 0.9rem;
+  padding: 0 1rem 1rem;
+}
+
+.coffee__item-img {
+  width: 100%;
+}
+
+.coffee__item-heading {
+  font-weight: 100;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-size: 1rem;
 }
