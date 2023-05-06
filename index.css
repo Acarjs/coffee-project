@@ -377,6 +377,7 @@ html {
 .coffee__item p {
   font-size: 0.9rem;
   padding: 0 1rem 1rem;
+  font-weight: 100;
 }
 
 .coffee__item-img {
